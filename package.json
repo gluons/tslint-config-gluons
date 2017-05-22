@@ -1,0 +1,33 @@
+{
+  "name": "tslint-config-gluons",
+  "version": "1.0.0",
+  "description": "Gluons' personal TSLint shareable config.",
+  "main": "./index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gluons/tslint-config-gluons.git"
+  },
+  "keywords": [
+    "tslint",
+    "tslintconfig",
+    "gluons"
+  ],
+  "author": "Saran Tanpituckpong <sarunta@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gluons/tslint-config-gluons/issues"
+  },
+  "homepage": "https://github.com/gluons/tslint-config-gluons",
+  "devDependencies": {
+    "typescript": "^2.3.2"
+  },
+  "dependencies": {
+    "@types/node": "6"
+  },
+  "peerDependencies": {
+    "tslint": "^5.2.0"
+  }
+}

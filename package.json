@@ -2,8 +2,14 @@
   "name": "tslint-config-gluons",
   "version": "1.0.2",
   "description": "Gluons' personal TSLint shareable config.",
-  "main": "./index.ts",
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "build": "tsc -p .",
+    "lint": "tslint -p . --type-check",
+    "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

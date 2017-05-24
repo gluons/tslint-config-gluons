@@ -4,7 +4,8 @@
   "description": "Gluons' personal TSLint shareable config.",
   "main": "./dist/index.js",
   "files": [
-    "dist"
+    "dist",
+    "tslint.json"
   ],
   "scripts": {
     "build": "tsc -p .",

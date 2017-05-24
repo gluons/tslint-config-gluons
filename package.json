@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-gluons",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Gluons' personal TSLint shareable config.",
   "main": "./index.ts",
   "scripts": {

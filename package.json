@@ -3,6 +3,7 @@
   "version": "1.0.5",
   "description": "Gluons' personal TSLint shareable config.",
   "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
   "files": [
     "dist",
     "tslint.json"

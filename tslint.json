@@ -9,7 +9,8 @@
 		"curly": true,
 		"indent": [
 			true,
-			"tabs"
+			"tabs",
+			4
 		],
 		"interface-name": false,
 		"interface-over-type-literal": false,
